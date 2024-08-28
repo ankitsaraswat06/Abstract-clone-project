@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+}
+.title{
+    text-decoration:none;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    height:90px;
+    /* border:2px solid black; */
+    align-items:center;
+    background-color:black;;
+    margin:none;
+}
+.header div{
+    margin:0px 100px 0px 100px;
+}
+.title,.headings{
+    color:#fff;
+    font-size:25px;
+    font-family:Helvetica;
+}
+#helpcenter{
+    font-weight:lighter;
+    margin:5px;
+}
+#helpcenter:hover{
+    text-decoration: solid underline;
+}
+#abstract{
+    font-weight:bolder;
+    margin:5px;
+
+}
+#submit{
+    height:50px;
+    width:250px;
+    border-radius:10px;
+    background-color:black;
+    border:1px solid white;
+    color:white;
+    font-size:25px;
+    margin:10px;
+}
+#sign{
+    height:50px;
+    width:140px;
+    border-radius:10px;
+    font-size:25px;
+    background-color:#4C5FD5;
+    color:white;
+    border: 1px solid white;
+}
+#sign:hover{
+    background-color:white;
+    color:black;
+}
+.search{
+    height:395px;
+    /* border:2px solid black; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#dadbf1;
+}
+.search p{
+    font-size:75px;
+    /* font-weight:bolder; */
+    font-family:Helvetica;
+    margin:5px;
+    position:relative;
+    bottom:42px;
+}
+.search input{
+    width:740px;
+    position:relative;
+    right:49px;
+    bottom:20px;
+    height:45px;
+    padding:15px;
+    font-size:20px;
+    border:1px solid black;
+    font-family:Helvetica;
+    border-radius:5px;
+    box-shadow:2px 5px 10px #dadbf1;
+}
+.search input:hover{
+    border-color:blue;
+    
+}
+.main{
+    height:800px;
+    /* border:2px solid black; */
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:0px 80px;
+    
+}
+.text{
+    display:inline-block;
+}
+.text p{
+    font-size:22px;
+    font-family:helvetica;
+}
+.text h2{
+    font-size:26px;
+    font-family:helvetica;
+    margin-bottom:20px;
+}
+#card1{
+    align-self:end;
+    justify-self:right;
+}
+#card2{
+    align-self:end;
+    justify-self:left;
+    position:relative;
+    top:12px;
+}
+#card3{
+    align-self:end;
+    justify-self:right;
+    position:relative;
+    left:32px;
+    /* border:2px solid black; */
+}
+#card4{
+    align-self:end;
+    justify-self:left;
+    position:relative;
+    bottom:59px;
+}
+#card5{
+    align-self:end;
+    justify-self:right;
+}
+#card6{
+    align-self:end;
+    justify-self:left;
+    position:relative;
+    bottom:32px;
+}
+.card img{
+    margin-right:30px;
+    height:90px;
+}
+.card a{
+
+    text-decoration:none;
+    position:relative;
+    top:20px;
+    font-size:20px;
+    font-family:helvetica;
+}
+.card a:hover{
+    text-decoration:solid underline;
+}
+#img3{
+    position:relative;
+    bottom:80px;
+}
+#img2{
+    position:relative;
+    bottom:50px;
+}
+#img1{
+    position:relative;
+    bottom:25px;
+}
+#img4{
+    position:relative;
+    bottom:25px;
+}
+#img5{
+    position:relative;
+    bottom:30px;
+}
+#img6{
+    position:relative;
+    bottom:8px;
+}
+.footer{
+    display:flex;
+    justify-content:space-around;
+    height:300px;
+    border:2px solid black;
+    padding:60px;
+    color:white;
+    background-color:black;
+}
+.copyright{
+    align-self:flex-end
+}
+.option_panel ul{
+    list-style:none;
+    text-decoration:none;
+    color:white;
+    font-family:Helvetica;
+}
+.option_panel h2{
+    margin-bottom:20px;
+    font-family:Helvetica;
+}
+li{
+    margin-bottom:4px;
+}
+.copyright p{
+    font-size:20px;
+    font-family:Helvetica;
+    margin-bottom:5px;
+}
+.copyright img{
+    position:relative;
+    bottom:12px;
+}
+.option_panel a{
+    color:white;
+    text-decoration:none;
+
+}
+.option_panel a:hover{
+    text-decoration:underline;
+}
+h3 {
+    margin-bottom:7px;
+    font-family:helvetica;
+}
+#help_button{
+    position:fixed;
+    background-color:#4C5FD5;
+    bottom:20px;
+    right:20px;
+    height:45px;
+    width:100px;
+    border-radius:25px;
+    color:white;
+    font-size:17px;
+    font-weight:bolder;
+    border:none;
+}
+#help_button img{
+    margin-right:5px;
+}
+
+
